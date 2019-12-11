@@ -1,0 +1,230 @@
+body {
+background-image: url("Pics/clouds-cropland-crops-442116.jpg");
+background-size: 1920px 551px;
+background-repeat: no-repeat;
+background-color: #FCFBE4;
+}
+
+/* Add a background color to the top navigation */
+.topnav {
+  background-color: none;
+  overflow: hidden;
+  float: none;
+  position: absolute;
+  left: 50%;
+  top: 5%;
+  transform: translate(-50%, -50%);
+}
+
+main {
+	width: 100%;
+	height: auto;
+}
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color:#000000;
+  color: white;
+} 
+
+.topnav a:hover:not(active) {
+  background-color: #ddd;
+  color: black;
+}
+#info{
+	position:absolute;
+	left:1250px;
+}
+	h3{
+		font-size: 30px;
+	color:#FFFFFF;
+	}
+#box1{
+	position:absolute;
+	height: 225px;
+	top: 570px;	
+	left: 80px;
+	border-radius: 10px;
+	overflow: hidden;
+}
+	#box1:hover {
+		opacity: 1;
+		transform: scale(1.05);
+		transition-duration:.8s;
+		}
+	h1 {
+			position:relative;
+			top: -200px;
+			/*font-family: */
+			color:#FFFFFF; 
+			font-size:30px;
+			text-align:center;
+		}
+	p {
+			position:relative;
+			top: -215px;
+			left: 0px;
+			/*font-family: */
+			color:#FFFFFF; 
+			font-size:20px;
+			text-align:center;
+}
+#box2{
+	position:absolute;
+	height: 225px;
+	top: 570px;
+	left: 540px;
+	border-radius: 10px;
+	overflow: hidden;
+}
+	#box2:hover {
+		opacity: 1;
+		transform: scale(1.05);
+		transition-duration:.8s;
+		}
+	h5 {
+			position:relative;
+			top: -225px;
+			left:500px
+			/*font-family: */
+			color:#FFFFFF; 
+			font-size:30px;
+			text-align:center;
+		}
+	p6 {
+		position:relative;
+		top: -270px;
+		left: 60px;
+		/*font-family: */
+		color:#FFFFFF; 
+		font-size:20px;
+		text-align:center;
+}
+#box3{
+	position:absolute;
+	height: 225px;
+	top: 570px;
+	left: 1000px;
+	border-radius: 10px;
+	overflow: hidden;
+}
+	#box3:hover {
+		opacity: 1;
+		transform: scale(1.05);
+		transition-duration:.8s;
+		}
+#popw{
+	position:absolute;
+	top:770px;
+	left:75px;
+}
+	h2{
+		font-size: 50px; 
+		}	
+#pop1{
+	position:absolute;
+	height: 300px;
+	top: 900px;
+	left: 75px;
+}
+
+#pop2{
+	position:absolute;
+	height: 300px;
+	top: 900px;
+	left:800px;
+}
+
+#block1{
+	position:absolute;
+	height:350px;
+	width:2000px;
+	left:-50px;
+	top:250px;
+	background-color:#FCFBE4;
+	z-index:1;
+		
+}
+
+#block2{
+	position:absolute;
+	height:20px;
+	width:2000px;
+	left:-50px;
+	top:250px;
+	background-color:#e7e3c6;
+	z-index:1;
+}
+
+#wines{
+	position:absolute;
+	height:20px;
+	z-index: 2;
+	left: 230px;
+	top: 300px;
+}
+	.btn {
+		position:relative;
+		top:400px;
+		font-family: 'Helvetica Neue', 'sans-serif';
+		font-size: 16px;
+		color: white;
+		width: 150px;
+		/*height: 50px;*/
+		background-color:#3C8E45;
+		text-transform: uppercase;
+		letter-spacing: 4px;
+		text-align: center;
+		padding: 20px 50px;
+		border-radius: 10px; /*rounds off button edges*/
+		transition:all 1s ease; /*creates 1 second transition for everything in btn hover (because of all)*/
+		opacity: .8;
+		float: left;
+		margin-right: 200px;
+		
+	}
+
+	.btn:hover {
+		background-color:#2A4D34;
+		opacity: 1;
+		transform: scale(1.1); /*animates button to be larger*/
+	}
+
+.buttons {
+	position: absolute;
+	z-index: 9;
+	width: 1500px;
+	top: 570px;
+	left: 250px;
+}
+img[src="Pics/champa logo.png"]{
+	position:absolute;
+	height: 25%;
+	width: 20%;
+}
+div
+
+}
+
+h1, h2, h3, h4, h5, h6 {
+
+}
+
+p {
+
+}
